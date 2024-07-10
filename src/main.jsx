@@ -6,6 +6,7 @@ import "./index.css";
 
 import Home from "./pages/home";
 import Lists from "./pages/lists";
+import Matkul from "./pages/matkul";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,15 @@ const router = createBrowserRouter([
     path: "/lists",
     element: <Lists />,
   },
+  {
+    path: "/dsd",
+    element: <Matkul nama="DSD" />,
+  },
+  {
+    path: "/matek",
+    element: <Matkul nama="Matematika Teknik" />,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
