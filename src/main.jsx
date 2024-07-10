@@ -5,11 +5,16 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 import Home from "./pages/home";
+import Lists from "./pages/lists";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/lists",
+    element: <Lists />,
   },
 ]);
 
