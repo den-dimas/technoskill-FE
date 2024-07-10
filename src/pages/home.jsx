@@ -2,9 +2,9 @@ function Home() {
   return (
     <div
       id="homepage"
-      className="w-screen h-screen flex items-center justify-center"
+      className="w-screen h-screen flex items-center justify-center bg-dark-blue"
     >
-      <h1>Home Page</h1>
+      <h1 className="font-black text-4xl text-white">TECHNOSKILL</h1>
     </div>
   );
 }
